@@ -1,0 +1,21 @@
+API KEY:7a280cde31688ada6e195571a3174c51
+BASE URL : https://www.themoviedb.org/
+
+individual:
+https://api.themoviedb.org/3/movie/12?api_key=7a280cde31688ada6e195571a3174c51&language=en-US  // Finding Nemo
+
+Popular:
+https://api.themoviedb.org/3/movie/latest?api_key=7a280cde31688ada6e195571a3174c51
+
+Now Playing:
+https://api.themoviedb.org/3/discover/movie?api_key=7a280cde31688ada6e195571a3174c51&include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_release_type=2|3&release_date.gte={min_date}&release_date.lte={max_date}
+
+Top Rated:
+https://api.themoviedb.org/3/discover/movie?api_key=7a280cde31688ada6e195571a3174c51&include_adult=false&include_video=false&language=en-US&page=1&sort_by=vote_average.desc&without_genres=99,10755&vote_count.gte=200
+
+Upcoming:
+https://api.themoviedb.org/3/discover/movie?api_key=7a280cde31688ada6e195571a3174c51&include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_release_type=2|3&release_date.gte={min_date}&release_date.lte={max_date}
+
+search collection:
+https://api.themoviedb.org/3/search/collection?api_key=7a280cde31688ada6e195571a3174c51&query=avatar&include_adult=false&language=en-US&page=1  //avatar
+
